@@ -56,10 +56,7 @@ The mobile application is built natively using React Native and Expo.
    ```bash
    npm install
    ```
-3. Update the API URL:
-   - Open `src/api/client.ts`
-   - Ensure the `BASE_URL` points to your machine's local IP address (e.g., `http://192.168.1.X:3000`) or `localhost`/`10.0.2.2` depending on your emulator setup.
-4. Start the Expo development server:
+3. Start the Expo development server:
    ```bash
    npx expo start -c
    ```
